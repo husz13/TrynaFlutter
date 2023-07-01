@@ -15,7 +15,7 @@ class DiceRoller extends StatefulWidget {
 
 class _DiceRollerState extends State<DiceRoller> {
   var diceImage = 'assets/images/dice-1.png';
-
+  int btnText = 0;
   void roller() {
     /*var diceFaces = [
       'assets/images/dice-1.png',
@@ -30,6 +30,7 @@ class _DiceRollerState extends State<DiceRoller> {
       () {
         var diceFace = randomizer.nextInt(6) + 1;
         diceImage = 'assets/images/dice-$diceFace.png';
+        btnText++;
       },
     );
   }
@@ -52,7 +53,7 @@ class _DiceRollerState extends State<DiceRoller> {
             backgroundColor: const Color.fromARGB(255, 80, 159, 12),
           ),
           onPressed: roller,
-          child: const StyledText("Roll Dice"),
+          child: StyledText("$btnText"),
         )
       ],
     );
