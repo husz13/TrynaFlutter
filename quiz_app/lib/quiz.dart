@@ -61,8 +61,9 @@ class _Quiz extends State<Quiz> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Color.fromARGB(184, 63, 3, 81),
-                Color.fromARGB(235, 89, 11, 168)
+                Color.fromARGB(
+                    184, 255, 191, 155), //rgb(255, 191, 155) rgb(255, 244, 224)
+                Color.fromARGB(235, 255, 244, 224)
               ],
             ),
           ),

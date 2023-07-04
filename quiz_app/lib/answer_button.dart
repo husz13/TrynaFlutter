@@ -6,7 +6,7 @@ class AnswerButton extends StatelessWidget {
   final String text;
   @override
   build(context) {
-    const backColor = Color.fromARGB(255, 54, 48, 98);
+    const backColor = Color.fromARGB(255, 206, 119, 119); //rgb(206, 119, 119)
 
     return OutlinedButton(
       onPressed: onTap,

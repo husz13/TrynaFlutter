@@ -25,7 +25,7 @@ class StartScreen extends StatelessWidget {
           "Stop There it's Time For A Quiz",
           textAlign: TextAlign.center,
           style: GoogleFonts.martianMono(
-            color: const Color.fromARGB(255, 224, 218, 218),
+            color: Color.fromARGB(255, 61, 53, 53),
             fontSize: 18,
           ),
         ),
@@ -34,7 +34,7 @@ class StartScreen extends StatelessWidget {
         ),
         OutlinedButton.icon(
           style: OutlinedButton.styleFrom(
-            foregroundColor: Colors.white,
+            foregroundColor: const Color.fromARGB(255, 0, 0, 0),
           ),
           onPressed: startQuiz,
           icon: const Icon(Icons.keyboard_double_arrow_right_outlined),
