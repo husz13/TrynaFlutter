@@ -36,7 +36,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               currentQuestion.question,
               style: GoogleFonts.acme(
                 fontSize: 18,
-                color: Color.fromARGB(255, 54, 45, 45),
+                color: const Color.fromARGB(255, 54, 45, 45),
                 //fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,

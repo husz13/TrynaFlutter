@@ -25,7 +25,7 @@ class SummaryItemDecorated extends StatelessWidget {
                 Text(
                   summaryItem["question"] as String,
                   style: GoogleFonts.abel(
-                    color: Color.fromARGB(255, 111, 102, 102),
+                    color: const Color.fromARGB(255, 111, 102, 102),
                     fontWeight: FontWeight.bold,
                     fontSize: 16,
                   ),
@@ -35,7 +35,7 @@ class SummaryItemDecorated extends StatelessWidget {
                   summaryItem["correct_answer"] as String,
                   style: GoogleFonts.lato(
                     fontSize: 14,
-                    color: Color.fromARGB(255, 77, 179, 102),
+                    color: const Color.fromARGB(255, 77, 179, 102),
                   ),
                 ),
                 const SizedBox(height: 5),

@@ -25,7 +25,7 @@ class StartScreen extends StatelessWidget {
           "Stop There it's Time For A Quiz",
           textAlign: TextAlign.center,
           style: GoogleFonts.martianMono(
-            color: Color.fromARGB(255, 61, 53, 53),
+            color: const Color.fromARGB(255, 61, 53, 53),
             fontSize: 18,
           ),
         ),
